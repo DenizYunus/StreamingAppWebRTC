@@ -82,6 +82,7 @@ export class RenderStreaming {
 
       //Start Websocket Signaling server
       new WSSignaling(this.server, this.options.mode);
+      // new WSSignaling(this.server, this.options.mode);
     }
 
     console.log(`start as ${this.options.mode} mode`);
